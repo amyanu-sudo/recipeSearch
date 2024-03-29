@@ -1,5 +1,13 @@
 ﻿# Recipe-App
 
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Features](#features)
+- [Demo](#demo)
+- [Installation](#installation)
+- [Tools Used](#toolsused)
+
 ## Introduction
 
 Created a Recipe Web App to store and search meals using **TheMealDB API**. It is built using HTML, CSS, Vanilla Javascript.
@@ -8,29 +16,42 @@ TheMeal API Link: https://www.themealdb.com/api.php
 
 ## Features
 
-1. #### Home Page
+   1. #### Home Page
+   
+      - Users can Search any recipe from the API via Search Input.
+      - Users can add the recipe to favourites section via favourite icon.
+      - Users can also delete the recipe from favourites section.
+   
+   2. #### Recipe Details
+      - Users can see the recipe details page by clicking on the recipe button.
+      - The recipe details page consists of information of the meals such as image, name, instructions, ingredients used and             watch recipe video link.
+      - users can also click on the checkbox to mark the already used items.
+        
+   3. #### Favourites Page
+      - Displays the list of all the favourite recipes.
+      - user can remove the recipe from favourites list by clicking on delete icon.
+      - The favourites list is persistent (will have the same number of recipes before and after closing the browser/refreshing the browser).
 
-   - Users can Search any recipe from the API via Search Input.
-   - Users can add the recipe to favourites section via favourite icon.
-   - Users can also delete the recipe from favourites section.
+## Demo
 
-2. #### Recipe Details
-   - Users can see the recipe details page by clicking on the recipe button.
-   - The recipe details page consists of information of the meals such as image, name, instructions, ingredients used and watch recipe video link.
-   - users can also click on the checkbox to mark the already used items.
-     
-3. #### Favourites Page
-   - Displays the list of all the favourite recipes.
-   - user can remove the recipe from favourites list by clicking on delete icon.
-   - The favourites list is persistent (will have the same number of recipes before and after closing the browser/refreshing the browser).
+You can view a live demo of the app [here]([https://amyanu-sudo.github.io/recipeSearch/]).
 
-## Getting Started With The Project
+## Installation
 
-- Fork the Project in your Repository.
-- Clone the Forked Repository in your Local System.
-- Run on Live Server.
-- Enjoy :)
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/amyanu-sudo/recipeSearch.git
+   ```
+   or
+   
+   Simply download the Zip File and run on your system.
 
+2. Navigate to the project directory
+  ```bash
+  cd recipeSearch
+  ```
+3. Open index.html in your browser.
+   
 ## Tools Used
 
  <p align="justify">
