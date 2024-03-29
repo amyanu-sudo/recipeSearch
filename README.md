@@ -34,7 +34,7 @@ TheMeal API Link: https://www.themealdb.com/api.php
 
 ## Demo
 
-You can view a live demo of the app [here]([https://amyanu-sudo.github.io/recipeSearch/]).
+You can view a live demo of the app [here](https://amyanu-sudo.github.io/recipeSearch/).
 
 ## Installation
 
