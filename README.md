@@ -6,7 +6,7 @@
 - [Features](#features)
 - [Demo](#demo)
 - [Installation](#installation)
-- [Tools Used](#toolsused)
+- [Tools Used](#tools-used)
 
 ## Introduction
 
@@ -14,7 +14,7 @@ Created a Recipe Web App to store and search meals using **TheMealDB API**. It i
 <br/>
 TheMeal API Link: https://www.themealdb.com/api.php
 
-## Features
+## Features 
 
    1. #### Home Page
    
@@ -52,7 +52,7 @@ You can view a live demo of the app [here]([https://amyanu-sudo.github.io/recipe
   ```
 3. Open index.html in your browser.
    
-## Tools Used
+## Tools Used <a name="tools-used"></a>
 
  <p align="justify">
 <img height="70" width="70" src="https://www.w3.org/html/logo/downloads/HTML5_Logo_256.png">
