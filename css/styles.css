@@ -1,0 +1,110 @@
+* {
+  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background-color: #a55d2af0;
+    min-height: 100vh;
+}
+.navbar-brand img {
+    height: 30px; /* Adjust height as needed */
+    margin-left: 10px;
+    width: 30px;
+    border-radius: 50%;
+}
+.navbar-brand-text {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #f59542;
+}
+
+#navbarSupportedContent{
+    margin-right: 100px;
+}
+
+
+/* Custom CSS for centering the search bar */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+  
+  #mealResults {
+    margin-top: 20px;
+  }
+  
+  #searchInput{
+    margin: 0;
+    border:none;
+    outline: none;
+    color: white;
+    padding: .7rem 1rem .7rem 1rem;
+    background-color: #343a40;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;;
+  }
+
+  .search_button{
+    margin: 0;
+    border:none;
+    outline: none;
+    background-color: #343a40;
+    color: #f59542;
+    padding: .7rem 1rem .7rem 1rem;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+
+  #results-heading{
+    font-family: 'Anton', sans-serif;
+    font-size: 3rem;
+    background: rgb(241, 161, 49);
+    background: linear-gradient(90deg, rgba(241, 161, 49, 1) 1%, rgba(244, 149, 44, 1) 30%, rgba(250, 197, 63, 1) 66%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+   #results-section{
+        padding-top: 5px;
+   }
+/* styling for meal card*/
+    .card{
+        width: 20rem;
+        border-radius: 5%;
+        /* background-color: #343a40; */
+        background-color: #23212E;
+        color: #CFCECE;
+        border: none;
+        margin: 10px;
+    }
+
+    .card-image{
+        width: 20rem;
+        border-top-left-radius: 5%;
+        border-top-right-radius: 5%;
+    }
+    .btn-warning {
+        background: rgb(241, 161, 49);
+        background: linear-gradient(90deg, rgba(241, 161, 49, 1) 1%, rgba(244, 149, 44, 1) 30%, rgba(250, 197, 63, 1) 66%);
+        border-radius: 20px;
+        padding: 0.4rem 2rem;
+        color: white!important;
+    }
+    i {
+        color: #F4952C;
+    }
+
+    .btn-outline-light{
+        border-radius: 50%;
+    }
+
+    #recipe-intro{
+        font-weight: lighter!important;
+        word-spacing: 0.3rem;
+        
+    }
