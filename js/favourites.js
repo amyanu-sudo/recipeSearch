@@ -15,7 +15,7 @@ async function renderFavoriteMealResults(){
                                 <div class = "card-body">
                                     <h5 class = "card-title"> ${data[0].strMeal}</h5>
                                     <div class = "d-flex justify-content-between">
-                                        <a href = "/recipe-detail.html?${data[0].idMeal}">
+                                        <a href = "recipe-detail.html?${data[0].idMeal}">
                                             <button id = "recipe-btn" type = "button" class = "btn btn-warning" onClick = "renderMealDetails(${data[0].idMeal})">
                                                 Recipe
                                             </button>

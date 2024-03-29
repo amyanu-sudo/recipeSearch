@@ -81,7 +81,7 @@ function renderSearchResults(meals) {
                     <div class = "card-body">
                         <h5 class = "card-title"> ${meal.strMeal}</h5>
                         <div class = "d-flex justify-content-between">
-                            <a href = "/recipe-detail.html?${meal.idMeal}">
+                            <a href = "recipe-detail.html?${meal.idMeal}">
                                 <button id = "recipe-btn" type = "button" class = "btn btn-warning">
                                     Recipe
                                 </button>
