@@ -8,13 +8,13 @@
 - [Installation](#installation)
 - [Tools Used](#tools-used)
 
-## Introduction
+## Introduction <a name="introduction"></a>
 
 Created a Recipe Web App to store and search meals using **TheMealDB API**. It is built using HTML, CSS, Vanilla Javascript.
 <br/>
 TheMeal API Link: https://www.themealdb.com/api.php
 
-## Features 
+## Features <a name="features"></a>
 
    1. #### Home Page
    
@@ -32,11 +32,11 @@ TheMeal API Link: https://www.themealdb.com/api.php
       - user can remove the recipe from favourites list by clicking on delete icon.
       - The favourites list is persistent (will have the same number of recipes before and after closing the browser/refreshing the browser).
 
-## Demo
+## Demo <a name="demo"></a>
 
 You can view a live demo of the app [here](https://amyanu-sudo.github.io/recipeSearch/).
 
-## Installation
+## Installation <a name="installation"></a>
 
 1. Clone the repository:
    ```bash
