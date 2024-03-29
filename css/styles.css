@@ -45,7 +45,8 @@ main{
     padding: .7rem 1rem .7rem 1rem;
     background-color: #343a40;
     border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;;
+    border-bottom-left-radius: 25px;
+    width: 35vw;
   }
 
   .search_button{
